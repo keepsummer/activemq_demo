@@ -2,6 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/activemq" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dianshang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/effective-java-3e-source-code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/effictive java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gaoji" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/gaojijieduan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gmall" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gmall/fastdfs-client-java" vcs="Git" />
   </component>
 </project>
