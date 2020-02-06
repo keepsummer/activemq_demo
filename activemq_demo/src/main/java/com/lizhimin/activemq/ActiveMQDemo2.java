@@ -73,6 +73,18 @@ public class ActiveMQDemo2 {
 
     }
 
-
+/**
+ * 异步非阻塞方式（监听器onMessage（））
+ * 订阅者或接受者通过MessageCustomer的setMessageListener(new MessageListener()）注册一个消息监听器
+ * 当消息到达之后，系统自动调用监听器MessageListener的OnMessage（Message message）方法
+ *  1、先生产，只启动1号消费者，问题：1号消费者能消费消息吗？Y
+ *  2、先生产，先启动1号消费者，再启动2号消费者。问题：2号消费者还能消费消息吗？
+ *      2。1 1号可以消费
+ *      2。2 2号不可以消费
+ *  3、先启动2个消费者，再生产6条消息，请问。消费情况如何？
+ *      3。1 2个消费者都有6条
+ *      3。2 先到先得，6条全给一个
+ *      3。3 一人一半     Y
+ */
 
 }

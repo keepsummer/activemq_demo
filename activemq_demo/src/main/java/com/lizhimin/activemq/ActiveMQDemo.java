@@ -42,4 +42,5 @@ public class ActiveMQDemo {
         System.out.println("消息发送到MQ");
 
     }
+
 }
